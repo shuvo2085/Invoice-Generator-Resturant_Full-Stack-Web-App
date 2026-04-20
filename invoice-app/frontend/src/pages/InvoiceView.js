@@ -55,7 +55,7 @@ const InvoiceView = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <Link to="/invoices" className="btn btn-ghost btn-sm">← Back</Link>
           <h2 style={{ margin: 0 }}>{invoice.invoiceNumber}</h2>
-          <span className="badge badge-amber">Unpaid</span>
+          <span className="badge badge-amber">paid</span>
         </div>
         <div style={{ display: 'flex', gap: 10 }}>
           <button className="btn btn-danger btn-sm" onClick={handleDelete}>Delete</button>
